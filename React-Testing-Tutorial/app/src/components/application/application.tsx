@@ -14,6 +14,10 @@ export const Application = () => {
 						value="Kiran"
 						onChange={() => {}}
 					/>
+					<img
+						src="https://via.placeholder.com/150"
+						alt="a person with a laptop"
+					/>
 				</div>
 				<div>
 					<label htmlFor="bio">Bio</label>
