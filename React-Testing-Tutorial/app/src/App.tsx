@@ -1,10 +1,10 @@
-import { Application } from "./components/application/application";
+import { Skills } from "./components/skills/skills";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<Application />
+			<Skills skills={["HTML", "CSS"]} />
 		</div>
 	);
 }
